@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header{
+    position: fixed; width: 100%; height: 10%; z-index: 1000; top: 0;
+}
+
+main{
+    margin-top: 64px;
+}
+
+.titulo-principal{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+.imagem-topo img{
+    margin-top: 0.3%;
+    margin-left: 35.4%;
+    margin-bottom: 0.3%;
+    border: 3px solid black;
+}
+.assunto-topo{
+    font-size: 16px;
+    width: 55%;
+    margin-left: 23%;
+    margin-top: 0.6%; 
+    text-align: justify;
+    margin-bottom: 0.3%;
+}
+
+#logotipo-react{
+   
+
+    position: absolute  ;
+    left: 70%;
+    top: 240%;
+    width: 30vmin;
+    height: 30vmin;
+    animation: spin 10s linear infinite;
+}
+#logotipo-react:before{
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: aqua;
+    width: 5.5vmin;
+    height: 5.5vmin;
+    border-radius: 50%;
+    top: 40.8%;
+    left: 40%;
+}
+#logotipo-react .circulo{
+    position: absolute;
+    width: 92.6%;
+    height: 35%;
+    border: 1.5vmin solid aqua;
+    border-radius: 49%;
+    top: 32.2%;
+    right: 4.3%;
+}
+#logotipo-react .circulo2{transform: rotate(60deg)}
+#logotipo-react .circulo3{transform: rotate(120deg)}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.primeiro-titulo{
+    display: flex;
+    margin-top: 1%;
+    margin-left: 10%;
+    font-size: 1.5rem;
+}
+.assunto-intro{
+    font-size: 16px;
+    width: 88%;
+    margin-left: 10%;
+    text-align: justify;
+    margin-bottom: 0.7%;
+}
+.introducao{
+    display: flex;
+}
+.intro{
+    width: 60%;
+}
+.imagem-intro img{
+    margin-top: 27.2%;
+    margin-left: 6.7%;
+    border: 3px solid rgb(82, 148, 248);
+}
+
+.segundo-titulo{
+    display: flex;
+    margin-left: 30%;
+    font-size: 1.5rem;
+}
+.assunto-comeco{
+    font-size: 16px;
+    width: 70%;
+    margin-left: 30%;
+    text-align: justify;
+    margin-bottom: 0.7%;
+}
+.comeco{
+    display: flex;
+}
+.comeco-funcionalidade{
+    width: 60%;
+}
+.imagem-comeco img{
+    margin-top: 18.7%;
+    margin-left: 27.2%;
+    border: 3px solid aqua;
+}
+
+.terceiro-titulo{
+    display: flex;
+    justify-content: center;
+    margin-right: 44%;
+    font-size: 1.5rem;
+}
+.assunto-meio{
+    font-size: 16px;
+    width: 50%;
+    margin-left: 10.8%;
+    text-align: justify;
+    margin-bottom: 0.7%;
+}
+.react-javascript{
+    width: 80%;
+    margin-bottom: 0.9%;
+}
+
+.quarto-titulo{
+    display: flex;
+    margin-left: 30%;
+    font-size: 1.5rem;
+}
+.assunto-penultimo{
+    font-size: 16px;
+    width: 66%;
+    margin-left: 30%;
+    text-align: justify;
+    margin-bottom: 0.7%;
+}
+.penultimo{
+    display: flex;
+}
+.penultimo-react-native{
+    width: 60%;
+}
+.imagem-penultimo img{
+    margin-top: 28%;
+    margin-left: 27.2%;
+    border: 3px solid rgb(69, 201, 224);
+}
+
+.quinto-titulo{
+    display: flex;
+    margin-top: 1%;
+    margin-left: 10%;
+    font-size: 1.5rem;
+}
+.assunto-ultimo{
+    font-size: 16px;
+    width: 80%;
+    margin-left: 10%;
+    text-align: justify;
+    margin-bottom: 0.9%;
+}
+.quinto-titulo-menor{
+    display: flex;
+    margin-top: 1%;
+    margin-left: 10%;
+    font-size: 1.3rem;
+}
+.ultimo{
+    display: flex;
+}
+.ultimo-caracteristicas{
+    width: 50%;
+    margin-left: 4.6%;
+}
+.componentes{
+    width: 50%;
+    height: 30%;
+    margin-right: 4%;
+    margin-top: 2.8%;
+}
+
+footer{
+    width: 100%; height: 35vh;
+}
+#foo1{
+    width: 100%; height: 30vh; background-color: #198754; display: flex;
+}
+#a1{
+    width: 20%; height: 30vh;
+}
+#a1 ul{
+    display: block; text-align: center; margin-top: 2vh;
+}
+#a1 ul li{
+    list-style: none;
+}
+#a1 ul li a{
+    font-size: 1.6rem; color: rgba(255, 255, 255, 0.562); text-decoration: none;
+}
+#a1 ul li a:hover{
+    font-size: 1.6rem; color: rgba(255, 255, 255, 0.842); text-decoration: none;
+}
+#a2{
+    width: 60%; height: 30vh;
+}
+#a2 p{
+    text-align: center; margin-top: 5vh; color: rgba(255, 255, 255, 0.842);
+}
+#a1 a img{
+    margin-left: 3%; margin-top: 20vh;
+}
+#foo2{
+    width: 100%; height: 5vh; background-color: #2b694c; color: rgba(255, 255, 255, 0.842); text-align: center;
+}

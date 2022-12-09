@@ -1,0 +1,65 @@
+
+body{
+    height: 100vh; background: #f2f4f8;
+}
+main{
+    display: flex; justify-content:space-around; align-items: center; height: 130vh;
+}
+.html{
+    display: flex;justify-content: center; align-items: center;
+    height: 40vh; width: 15%; transition: 0.6s; cursor: pointer;
+    border-radius: 7%; background-color: white; box-shadow: 5px 5px 50px rgb(155, 155, 155);
+}
+.html:hover{
+    background-color: hsl(12deg 78% 52%);
+    transition: 0.5s; height: 43vh; width: 16%;
+}
+.css{
+    display: flex;justify-content: center; align-items: center;
+    height: 40vh; width: 15%; transition: 0.6s; cursor: pointer;
+    background-color: white; border-radius: 7%; box-shadow: 5px 5px 50px rgb(155, 155, 155);
+}
+.css:hover{
+    background-color:#379ad6;
+    transition: 0.5s; height: 43vh; width: 16%;
+}
+.js{
+    display: flex;justify-content: center; align-items: center;
+    height: 40vh; width: 15%; transition: 0.6s; cursor: pointer;
+    background-color: white; border-radius: 7%; box-shadow: 5px 5px 50px rgb(155, 155, 155);
+}
+.js:hover{
+    background-color:#f7df38;
+    transition: 0.5s; height: 43vh; width: 16%;
+}
+.react{
+    display: flex;justify-content: center; align-items: center;
+    height: 40vh; width: 15%; transition: 0.6s; cursor: pointer;
+    background-color: white; border-radius: 7%; box-shadow: 5px 5px 50px rgb(155, 155, 155);
+}
+.react:hover{
+    background-color: #2ac7e3;
+    transition: 0.5s; height: 43vh; width: 16%;
+}
+.git{
+    display: flex;justify-content: center; align-items: center;
+    height: 40vh; width: 15%; transition: 0.6s; cursor: pointer;
+    background-color: white; border-radius: 7%; box-shadow: 5px 5px 50px rgb(155, 155, 155);
+}
+.git:hover{
+    background-color: #f05033;
+    transition: 0.5s; height: 43vh; width: 16%;
+}
+
+@media (max-width: 750px) {
+    main{
+        height: 250vh;
+        display: flex; flex-direction: column;
+    }
+    #tam{
+        width: 60%;
+    }
+    .html{
+        margin-top: 10vh;
+    }
+}
